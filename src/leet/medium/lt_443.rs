@@ -88,7 +88,9 @@ mod tests {
         assert_eq!(compress(&mut chars), 4);
         assert_eq!(
             chars,
-            ['a', 'b', '1', '2', 'b', 'b', 'b', 'b', 'b', 'b', 'b', 'b', 'b',]
+            [
+                'a', 'b', '1', '2', 'b', 'b', 'b', 'b', 'b', 'b', 'b', 'b', 'b',
+            ]
         );
     }
 }

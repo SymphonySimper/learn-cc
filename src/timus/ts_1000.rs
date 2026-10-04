@@ -1,7 +1,7 @@
 use std::fmt::Debug;
 #[allow(unused_imports)]
 use std::io::{self, BufReader};
-use std::io::{prelude::*, Lines};
+use std::io::{Lines, prelude::*};
 use std::str::FromStr;
 
 pub struct Solution<'a> {
